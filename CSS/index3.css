@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5em;
+  overflow: hidden;
+  background-color: black;
+
+  
+  
+  
+}
+
+ul.topnav li {
+    float: left;
+    
+}
+
+ul.topnav li  img{
+    height: 3em;
+    width: 12em;
+      
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 1em 2em;
+  text-decoration: none;
+  margin: 0;
+
+}
+
+ul.topnav li a:hover:not(.active) {
+
+    background-color: gray;
+}
+
+ul.topnav li a.active {
+    
+    background-color: chocolate;
+
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+div#Imagenfondo{
+
+    height: 30em;
+    width: 98%;
+    background-image: url(../IMAGENES/Sin\ nombre.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: auto;
+    display: block;
+    
+  
+    
+    
+    }
+
+div#primerformato{
+
+    width: 35%;
+    margin: 2em;
+
+    background-color: rgb(255, 255, 255);
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: rgb(2, 2, 2);
+    float: right;
+    
+    
+}
+
+div#primerformato h1{
+    text-align: center;
+    margin: 0.8em;
+
+}
+
+div#primerformato article{
+
+    margin: 0.8em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+div#imagencostado{
+
+    float: left;
+    width: 40%;
+    height: 25em;
+    margin: 5em;
+    background-image: url(../IMAGENES/Sin\ nombre.jpg);
+}
+div#Barramedia{
+    width: 100%;
+    height: 40em;
+    background-color: transparent;
+    
+    
+}
+
+
+.button1{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-width: 0.2em;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.button1:hover  {
+
+    box-shadow: 0 2em 3em 0 rgba(0, 0, 0, 0.336);
+    color: black;
+    background-color: white;
+    border-width: 0.2em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    
+}
+
+.registrooculto{
+
+    
+    
+    margin: 2em;
+    float: left;
+   
+  
+
+}
+input{
+    font-size:1.5em ;
+    float: right;
+    margin: 0.3em;
+}
+label{
+    font-size: 2.1em;
+    color: white;
+    
+
+}
+
+
+.IngresoOculto{
+    margin: 2em;
+    float: right;
+   
+
+}
+
+
+.button2{
+
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 0.5em;
+    margin: 0.5em;
+    
+
+}
+
+.button2:hover{
+
+    background-color: white;
+    color: black;
+}
+
+.botin:hover{
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    
+}
+
+input::placeholder{
+
+    font-size: 1em;
+    text-align: center;
+    color: rgba(0, 0, 255, 0.158);
+    background-color: white;
+    margin: 0.2em;  
+}
+
+
+
+.botin{
+    
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 0.2em;
+    margin: 1em;
+    
+
+
+}
+div#TodoRegistro{
+
+    background-color: black;
+    height: 35em;
+}
+
+div#barraabajo{
+    
+   margin-top: 3em;
+    text-align: end;
+    height: 30em;
+    background-color: red;
+    
+    
+}
+
+
+
+
+
+.fab{
+    font-size: 6em;
+    margin: 0.3em;
+    
+}
+
+
+
+
+
+
+
+
+/*----------------------------------------RESPONSIVE----------------------------------*/
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {
+      
+      float: none;
+      position: initial;
+    }
+
+    div#Imagenfondo{
+        height: 20em;
+    }
+    
+  ul.topnav li img{
+    display: block;
+    margin: auto;
+    
+}
+
+div#imagencostado{
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 15em;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+  
+
+}
+div#primerformato{
+    padding-top: 2em;
+    
+    float: none;
+    width: 90%;
+    margin: auto;
+    display: block;
+    border-style: none;
+    
+}
+  
+}
